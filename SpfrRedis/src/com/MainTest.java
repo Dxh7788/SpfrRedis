@@ -1,4 +1,4 @@
-package com.dredis.bn;
+package com;
 
 public class MainTest {
 
