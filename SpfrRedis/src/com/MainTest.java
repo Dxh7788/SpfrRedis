@@ -13,10 +13,10 @@ public class MainTest {
 	
 	@Autowired
 	RedisTemplate<String, String> template;
-	
 	@Test
 	public void testRedisConnection(){
 		//操作字符串
 //		template.opsForValue().set("dxh_test_redis_str", "123");
+		template.opsForValue().set("dxh_test_redis_str", "123");
 	}
 }
